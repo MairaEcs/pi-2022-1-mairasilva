@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-style: arial;
+    font-size:  20px;
+    text-align: justify;
+}
+
+p.align {
+    font-style: arial;
+    font-size:  20px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    word-spacing: 30px;
+}
