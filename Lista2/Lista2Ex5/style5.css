@@ -1,0 +1,21 @@
+table, td, tr, th{
+    border: solid black 1px;
+    text-align: left;
+}
+
+th.estados{
+    text-align: center;
+}
+
+td.nomecidade{
+    font-style: italic;
+}
+
+li.nomecidade{
+    font-style: italic;
+}
+
+caption{
+    font-weight: bold;
+    font-style: italic;
+}

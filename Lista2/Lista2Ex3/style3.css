@@ -1,0 +1,60 @@
+body{
+    background-color: #F3F3F3;
+}
+
+div.titulo{
+    width: 50%;
+    height: 10vh;
+    float: left;
+}
+
+div.menu{
+    width: 50%;
+    height: 10vh;
+    float: right;
+    position: relative;
+}
+
+div.home{
+    position: absolute;
+    right: 90%;
+    font-size: 14px;
+}
+
+div.about{
+    position: absolute;
+    right: 68%;
+    font-size: 14px;
+}
+
+div.portfolio{
+    position: absolute;
+    right: 44%;
+    font-size: 14px;
+}
+
+div.blog{
+    position: absolute;
+    right: 24%;
+    font-size: 14px;
+}
+
+div.contactus{
+    position: absolute;
+    right: 0%;
+    font-size: 14px;
+}
+
+div.titulo1{
+    float: right;
+}
+
+div.esquerda{
+    width: 30%;
+    float: left;
+    height: 50vh;
+}
+
+div.imagem{
+    float: right;
+}

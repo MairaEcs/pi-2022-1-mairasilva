@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.cabecalho {
+    padding-top: 10px;
+    width: 100%;
+    background-color: #B5DCB3;
+    height: 10vh;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+div.menulateral {
+    width: 30%;
+    background-color: #AAAAAA;
+    float: left;
+    height: 80vh;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+div.conteudo {
+    width: 70%;
+    background-color: #EEEEEE;
+    float: right;
+    height: 80vh;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+div.rodape {
+    width: 100%;
+    background-color: #B5DCB3;
+    clear: both;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
