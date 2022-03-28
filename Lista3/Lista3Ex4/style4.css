@@ -1,0 +1,73 @@
+div.container{
+    padding: 10px;
+    display: grid; /*alinha div dentro de uma div*/
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    grid-template-areas:  
+          "h h h h"  
+          "i1 i2 i3 i4"
+          "i5 i6 i7 i8"      
+          "f f f f";
+}
+
+div.container > div{
+    padding: 10px;
+    /*margin: 5px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    height: 12vh;
+    line-height: 0.5;
+}
+
+.item1{
+    grid-area: h;
+    text-align: center;
+    background-color: #AFBAC9;
+}
+
+.item2{ 
+    grid-area: i1;
+    background-color: #DD5450;
+}
+
+.item3{
+    grid-area: i2;
+    background-color: #BBE17B;
+}
+
+.item4{
+    grid-area: i3;
+    background-color: #8397E1;
+}
+
+.item5{
+    grid-area: i4;
+    background-color: #9B78AB;
+}
+
+.item6{
+    grid-area: i5;
+    background-color: #D5972E;
+}
+
+.item7{
+    grid-area: i6;
+    background-color: #D576D3;
+}
+
+.item8{
+    grid-area: i7;
+    background-color: #68CAD8;
+}
+
+.item9{
+    grid-area: i8;
+    background-color: #EAE428;
+}
+
+.item10{
+    grid-area: f;    
+    text-align: center;
+    background-color: #AFBAC9;
+}

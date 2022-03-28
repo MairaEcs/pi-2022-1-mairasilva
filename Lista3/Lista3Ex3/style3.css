@@ -1,0 +1,139 @@
+div.container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "h h h h h"
+        "m ti ti ti ti"
+        "m i1 i1 i1 i1"
+        "m i1 i1 i1 i1"   
+        "m i2 i3 i4 i5"
+        "m tb tb tb tb"
+        ". tb tb tb tb"
+}
+
+div.container > div{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+.header, .dash, .search{
+    grid-area: h;
+    color: #d4d3d3;
+    background-color: #333333;
+}
+
+.header, .dash{
+    padding: 2vh;
+    height: 3vh;
+}
+
+.dash{
+    display: inline;
+    color: #EEEEEE;
+    background-color: black;
+}
+
+.search{
+    display: inline;
+    background-color: #626262;
+    border-radius: 10px;
+}
+
+.menu, .item1, .item2, .item3, .item4, .item5{
+    background-color: #EEEEEE;
+}
+
+.item2, .item3, .item4, .item5{
+    width: 17vw;
+    height: 12vh;
+    line-height: 0.2;
+    padding-top: 1vw;
+    padding-left: 2vw;
+}
+
+.menu{
+    grid-area: m;
+    width: 15vw;
+    height: 55vh;
+}
+
+.menu a{
+    color: #0481C6;
+    display: block;
+    text-decoration: none;
+}
+
+.menu a.active{
+    color: white;
+    background-color: #0481C6;
+}
+
+i{
+    color: #333333;
+}
+
+.titulo{
+    grid-area: ti;
+    height: 5vh;
+    padding-bottom: 2vh;
+}
+
+.item1{
+    grid-area: i1;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    width: 75vw;
+    height: 35vh;
+}
+
+h1, h2, p{
+    color: #333333;
+}
+
+.button{
+    width: 10vw;
+    height: 7vh;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.start{
+    background-color: #0E61C9;
+    color: white;
+}
+
+.no{
+    background-color: #ECECEC;
+}
+
+.item2{grid-area: i2;}
+.item3{grid-area: i3;}
+.item4{grid-area: i4;}
+.item5{grid-area: i5;}
+
+.divtable{
+    grid-area: tb;
+}
+
+.table{
+    width: 75vw;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) { /*Zebra Stripes*/
+    background-color: #EEEEEE;
+}
+
+.view{
+    color: #0E61C9;
+}
+
+.text{
+    font-size: small;
+}
