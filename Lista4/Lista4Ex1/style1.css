@@ -1,0 +1,147 @@
+div.container > div{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 50vh;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+fieldset.form1{
+    height: 50vh;
+    background-color: #0AABB8;
+}
+
+h2.form1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+label[for=checkbox]{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea{
+    width: 100%;
+    margin: 1vh 0;
+    padding: 1vh 2vh;
+    box-sizing: border-box;  
+}
+
+input[value="SEND"]{
+    margin: 2vh 0;
+    margin-left: 8vw;
+    border-style: none;
+    width: 12vw;
+    height: 5vh;
+    color: #939393;
+    background-color: white;
+    box-shadow: 6px 5px #0199A4;
+}
+
+fieldset.form2{
+    height: 50vh;
+    border-color: #715CB9;
+}
+
+h3.form2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding-bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.form2 i{
+    position: absolute;
+    padding: 2vh;
+    color: #939393;
+}
+
+input[name=fullname], input[name=emailexample], input[name=telefone], textarea[name=comments]{
+    text-indent: 10%;
+}
+
+input[value="SEND NOW"]{
+    margin-left: 8vw;
+    color: white;
+    background-color: #715CB9;
+    border-style: none;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 18px;
+    box-shadow: 20px 20px 50px #D1C6F1;
+    font-size: 1vw;
+}
+
+fieldset.form3{
+    background-color: #F9F9F9;
+    border-color: #00B241;
+    height: 60vh;
+}
+
+input[value="Submit"]{
+    color: white;
+    background-color: #00B241;
+    width: 100%;
+    height: 8%;
+    border-style: none;
+}
+
+h2.form3, p.form3{
+    color: #898989;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.5;
+}
+
+p.form3{
+    font-size: small;
+}
+
+fieldset.form4{
+    height: 60vh;
+}
+
+div.label1, div.label2, div.label3, div.label4, div.label5, div.label6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+fieldset.form4{
+    border-style: none;
+}
+
+fieldset.form4 input{
+    height: 5vh;
+}
+
+input[name=address1], input[name=address2], input[name=city], input[name=country]{
+    width: 23vw;
+}
+
+input[name=address1]:focus, input[name=address2]:focus, input[name=city]:focus, input[name=country]:focus, input[name=state]:focus, input[name=postcode]:focus{
+    border: 1px solid #6FA1C7; 
+    outline: none; 
+    -moz-box-shadow: 0px 0px 5px rgba(0, 170, 255,.5);
+    box-shadow: 0px 0px 5px rgba(0, 170, 255,.5);
+}
+
+input[name=state], input[name=postcode]{
+    width: 9vw;
+}
+
+input[value=Cancel]{
+    margin-left: 18vw;
+    border-style: none;
+}
+
+input[value=Save]{
+    color: white;
+    background-color: #458AC4;
+    border-style: none;
+}
