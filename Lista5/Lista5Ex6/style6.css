@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 0%;
+    text-align: center;
+}
+
+div{
+    width: 30%;
+    height: 20vh;
+    padding-top: 1%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+button{
+    width: 12vw;
+    height: 5vh;
+}
+
+#btn1{
+    background-color: rgb(204, 0, 255);
+}
+
+#bt2{
+    background-color: lightgray;
+}

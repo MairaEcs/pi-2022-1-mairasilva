@@ -1,0 +1,21 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 30%;
+    height: 2vh;
+}
+
+th, td{
+    padding-left: 2%;
+    border: 1px solid #000;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+button{
+    margin-top: 2%;
+    margin-left: 4%;
+    background-color: lightgray;
+}

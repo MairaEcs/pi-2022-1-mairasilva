@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 0%;
+}
+
+div{
+    margin: 1% auto 3%; 
+    width: 20vw;
+    height: 5vh;
+}
+
+p{
+    border: 1px solid black;
+    font-size: large;
+    margin-bottom: 3%;
+    padding: 1% 0% 1% 5%;
+}
+
+button{
+    margin-left: 39.5%;
+    width: 20vw;
+    height: 4vh;
+    background-color: rgb(236, 238, 117);
+}

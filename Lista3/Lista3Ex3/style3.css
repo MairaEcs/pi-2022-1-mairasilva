@@ -127,7 +127,7 @@ td, th{
 }
 
 tr:nth-child(even) { /*Zebra Stripes*/
-    background-color: #EEEEEE;
+    background-color: lightgreen
 }
 
 .view{
