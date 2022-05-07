@@ -1,0 +1,36 @@
+.container{
+    margin: 0 auto;
+    width: fit-content;
+    gap: 50px;
+    display: flex;
+}
+
+.container > div{
+    width: 100px;
+    text-align: center;
+}
+
+#div1{
+    background-color: rgb(202, 148, 157);
+}
+
+#div2{
+    background-color: rgb(129, 129, 206);
+}
+
+#div3{
+    background-color: rgb(238, 238, 158);
+}
+
+#div4{
+    background-color: rgb(162, 230, 162);
+}
+
+ul{
+    margin: 5% auto;
+    width: fit-content;
+}
+
+li{
+    cursor: pointer;
+}

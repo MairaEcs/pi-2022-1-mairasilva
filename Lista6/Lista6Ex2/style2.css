@@ -1,0 +1,13 @@
+div{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.container{
+    border: 1px solid black;
+    padding: 1%;
+}
+
+i{
+    cursor: pointer;
+}

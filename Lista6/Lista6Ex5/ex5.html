@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cracha">
+            <div class="inf-empresa">
+                <div class="abertura"></div>
+                <p>SUA LOGO</p>
+                <p onClick = "clicarTexto(this)" id="nome-empresa" contenteditable="true">Nome da empresa</p>
+            </div>
+            <div class="foto">
+                <img onClick = "clicarImg(this)" id="imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzHoHEfnI-ss-b0ToOKaXAhUfHWA6GgTYwPABD8XDle81sOoYcpnWXuNPMNdksZOgexsk&usqp=CAU" alt="">
+               
+            </div>
+            <div class="src">
+                <input type="file" class="form-control-file" name="foto" id="upload-img">
+            </div>
+            <div class="inf-funcionario">
+                <p onClick = "clicarTexto(this)" id="nome" contenteditable="true">Nome</p>
+                <p onClick = "clicarTexto(this)" id="funcao" contenteditable="true">Função do funcionário</p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts5.js"></script>
+</body>
+</html>

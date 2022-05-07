@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divtitulo{
+    background-color: #DAA520;
+    width: 20vw;
+    height: 9vh;
+    text-align: center;
+}
+
+.divinput{
+    background-color: #D3D3D3;
+    width: 20vw;
+    height: 5vh;
+}
+
+input{
+    background-color: #D3D3D3;
+    border: none;
+    height: 4.5vh;
+    padding-left: 3%;
+}
+
+#add{
+    padding-left: 1%;
+}
+
+td{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+table{
+    border-collapse: collapse;
+    width: 20vw;
+}
+
+tr{
+    height: 5vh;
+}
+
+tr:nth-child(even){
+    background-color: #D3D3D3;
+}
+
+#idconcluida{
+    background-color: black;
+}
+
+i{
+    cursor: pointer;
+}
